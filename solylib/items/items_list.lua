@@ -1528,6 +1528,10 @@ local function AddServerItems(server)
         t[ 0x03100B ] = { 0xFFFF0000, true } -- 2nd Anniv. Silver Badge
         t[ 0x03100C ] = { 0xFFFF0000, true } -- 2nd Anniv. Gold Badge
         t[ 0x03100D ] = { 0xFFFF0000, true } -- 2nd Anniv. Platinum Badge
+        t[ 0x031010 ] = { 0xFFFF0000, true } -- 3nd Anniv. Bronze Badge
+        t[ 0x031011 ] = { 0xFFFF0000, true } -- 3nd Anniv. Silver Badge
+        t[ 0x031012 ] = { 0xFFFF0000, true } -- 3nd Anniv. Gold Badge
+        t[ 0x031013 ] = { 0xFFFF0000, true } -- 3nd Anniv. Platinum Badge
         t[ 0x03100E ] = { 0xFFFF0000, true } -- Halloween Cookie
         t[ 0x03100F ] = { 0xFFFF0000, true } -- Coal
         t[ 0x03160C ] = { 0xFFFFFF00, true } -- Disk Vol.13 "Get It Up"
@@ -1538,6 +1542,7 @@ local function AddServerItems(server)
         t[ 0x031611 ] = { 0xFFFFFF00, true } -- Disk Vol.18 "Puyo Puyo"
         t[ 0x031612 ] = { 0xFFFFFF00, true } -- Disk Vol.19 "Rhythm And Balance"
         t[ 0x031613 ] = { 0xFFFFFF00, true } -- Disk Vol.20 "The Party Must Go On"
+        t[ 0x031614 ] = { 0xFFFFFF00, true } -- Disk Vol.21 "Armada Battle"
         t[ 0x031705 ] = { 0xFFFF0000, true } -- Viridia Badge
         t[ 0x031706 ] = { 0xFFFF0000, true } -- Greenill Badge
         t[ 0x031707 ] = { 0xFFFF0000, true } -- Skyly Badge
@@ -1549,6 +1554,7 @@ local function AddServerItems(server)
         t[ 0x03170D ] = { 0xFFFF0000, true } -- Yellowboze Badge
         t[ 0x03170E ] = { 0xFFFF0000, true } -- Whitill Badge
         t[ 0x031810 ] = { 0xFFFF0000, true } -- Heart of YN-0117
+        t[ 0x030E35 ] = { 0xFFFF0000, true } -- Red Paint
     elseif server == 4 then -- Schthack
 
     end
